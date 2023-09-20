@@ -1,7 +1,7 @@
-name: Github Actions Demo
+name: GitHub Actions Demo
 on: [push]
 jobs:
   Explore-Github-Actions:
     runs-on: ubuntu-latest
-      steps:
-        -run: echo "hello World"
+    steps:
+      -run: echo "hello World"
